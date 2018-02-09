@@ -345,7 +345,7 @@
           this.bottomDropped = true;
           this.bottomReached = false;
           if (this.bottomStatus === 'drop') {
-            this.translate = '-50';
+            this.translate = '-90';
             this.bottomStatus = 'loading';
             this.bottomMethod();
           } else {
